@@ -18,4 +18,4 @@ jobs:
           sudo apt install kubescape
       - name: Run Kubescape
         run: |
-         kubescape scan -f test.yml
+         kubescape scan --local -f test.yml
